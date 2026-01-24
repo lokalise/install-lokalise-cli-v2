@@ -6,7 +6,7 @@ Not your father's CLI installer — this one's fast, flexible, and ready to Loka
 
 ```yaml
 - name: Install Lokalise CLI v2
-  uses: lokalise/install-lokalise-cli-v2@v2.0.0
+  uses: lokalise/install-lokalise-cli-v2@v2.1.0
   with:
     force-install: true         # Optional: force reinstallation even if already installed
     target-version: 3.1.3       # Optional: specify CLI version (e.g., 3.1.1). Defaults to latest.
@@ -27,4 +27,4 @@ Not your father's CLI installer — this one's fast, flexible, and ready to Loka
 
 ## License
 
-Apache license v2.0
+Apache license v2.0. Ilya Bodrov-Krukowski and Lokalise group.

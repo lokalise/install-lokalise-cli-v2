@@ -20,15 +20,11 @@ branding:
   icon: 'box'
   color: 'black'
 
-permissions:
-  contents: read
-  
 runs:
   using: 'composite'
   steps:
     - name: Install Lokalise CLI
       shell: bash
-      id: install-lokalise
       env:
         FORCE_INSTALL: ${{ inputs.force-install }}
         LOKALISE_CLI_VERSION: ${{ inputs.target-version }}
